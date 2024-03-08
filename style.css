@@ -80,21 +80,31 @@ img {
     display: inline;
 
 }
+/* Add media queries for responsiveness */
+@media (max-width: 600px) {
+    .choices {
+        gap: 0.5rem;
+    }
 
-/* button {
-    height: 50px;
-    width: 150px;
-    background-color: #29274C;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-    color: white;
-    font-size: large;
-    border-radius: 0.7em;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    .choice {
+        height: 80px;
+        width: 80px;
+    }
+
+    img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .score-board {
+        font-size: 1rem;
+    }
+
+    #comp-score, #user-score {
+        font-size: 1.5rem;
+    }
+
+    #msg {
+        font-size: 0.8rem;
+    }
 }
-
-button:hover {
-    background-color: darkcyan;
-} */
